@@ -10,18 +10,25 @@ from herd import Herd
 
 #endregion
 
-#region - call weapons
+#region - call robot weapons
 sword_weapon = Weapons("Sword", 10)
-print(sword_weapon.weapon_name)
-print(sword_weapon.attack_power)
+liquid_metal = Weapons("Liquid Metal", 5)
+dew = Weapons("Direct Energy Weapon", 20)
 
 #endregion
 
 #region - call robots
 robot_one = Robots("Gundam", sword_weapon)
-print(robot_one.name)
-print(robot_one.health)
-print(robot_one.weapon)
-print(robot_one.attack_power)
+robot_two = Robots("T1000", liquid_metal)
+robot_three = Robots("Sentinels", dew)
 
 #endregion
+
+#region - 
+
+#region - debug lines
+print(robot_three.name)
+print(robot_three.health)
+print(robot_three.weapon)
+print(robot_three.attack_power)
+#endregion - debug lines
