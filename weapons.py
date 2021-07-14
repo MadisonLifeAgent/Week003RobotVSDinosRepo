@@ -3,8 +3,12 @@
 #weapons class
 class Weapons:
     #weapons properties
-    def __init__(self):
-        self.name = "" # put name in later
+    def __init__(self, weapon_name):
+        self.weapon_name = weapon_name
         self.attack_power = 10
+
+#endregion
+
+#region - set methods to get weapons
 
 #endregion
