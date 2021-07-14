@@ -1,12 +1,11 @@
 #region - initializ robots class and set methods
 
 #robots class
-class robots:
+class Robots:
     #robot properties
     def __init__(self):
         self.name = "" # put name in later
         self.health = 100
-        self.weapon = "" #put weapon name in later
-        self.weapon_attack_power = 10
+        self.weapon = "" #create weapons class - needs attack power
 
 #endregion
