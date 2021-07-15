@@ -23,17 +23,11 @@ robot_three = Robots("Sentinel", dew)
 
 #endregion
 
-#region - instantiate fleet
-#region - put robots
+#region - instantiate fleet and put robots in fleet
 robot_list = []
 robot_list.append(robot_one)
 robot_list.append(robot_two)
 robot_list.append(robot_three)
-
-print(robot_list[0].name)
-print(robot_list[0].health)
-print(robot_list[0].weapon)
-print(robot_list[0].attack_power)
 
 #endregion
 

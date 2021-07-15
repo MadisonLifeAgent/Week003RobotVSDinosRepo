@@ -13,10 +13,3 @@ class Robots:
         self.attack_power = weapon.attack_power
 
 #endregion
-
-
-
-#region - set robot methods
-
-
-#endregion

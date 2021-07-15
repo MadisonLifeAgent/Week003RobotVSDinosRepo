@@ -17,4 +17,3 @@ class Fleet:
         self.lives = 3 # one life for each robot in the fleet
 
 #endregion
-
