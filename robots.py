@@ -13,4 +13,5 @@ class Robots:
         self.weapon = weapon.weapon_name
         self.attack_power = weapon.attack_power
 
+
 #endregion

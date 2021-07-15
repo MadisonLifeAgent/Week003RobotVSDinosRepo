@@ -30,8 +30,8 @@ dino_herd.set_herd()
 
 #region - assign apponents
 #Match One - robot one and dino one
-match_one = Matches(robot_fleet, dino_herd)
-match_one.fight_to_the_death()
+begin_the_battle = Matches(robot_fleet, dino_herd)
+begin_the_battle.fight_to_the_death()
 
 #endregion - assign opponends end
 
