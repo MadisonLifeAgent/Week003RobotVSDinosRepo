@@ -9,19 +9,6 @@ from herd import Herd
 
 #endregion
 
-#region - instantiate robot weapons
-sword_weapon = Weapons("Sword", 10)
-liquid_metal = Weapons("Liquid Metal", 5)
-dew = Weapons("Direct Energy Weapon", 20)
-
-#endregion
-
-#region - instantiate robots
-robot_one = Robots("Mobile Suit Gundam Wing", sword_weapon)
-robot_two = Robots("T1000", liquid_metal)
-robot_three = Robots("Sentinel", dew)
-
-#endregion
 
 #region - instantiate fleet and put robots in fleet
 robot_list = []

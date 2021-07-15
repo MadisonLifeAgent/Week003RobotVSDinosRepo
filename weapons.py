@@ -10,5 +10,8 @@ class Weapons:
 #endregion
 
 #region - set methods to get weapons
+    def set_weapon(self, weapon_name, attack_power):
+        self.weapon_name = weapon_name
+        self.attack_power = attack_power
 
 #endregion
