@@ -12,8 +12,8 @@ from robots import Robots
 class Fleet:
     #fleet properties
     def __init__(self):
-        self.name = [] # get from objects
-        self.lives = 3 # one life for each robot in the fleet
+        self.name = []
+        self.lives = 3
 
     # set fleet to be instantitated
     def set_robot_fleet(self):

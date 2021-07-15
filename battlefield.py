@@ -26,13 +26,6 @@ robot_fleet.set_robot_fleet()
 dino_herd = Herd()
 dino_herd.set_herd()
 
-# print fleet names (debugging)
-#use this format to get attributes from
-#print("\nVS.\n")
-#print(dino_herd.name[1].name)
-#print(dino_herd.name[1].health)
-#print(dino_herd.name[1].attack_power)
-
 #endregion - instantiate heard
 
 #region - assign apponents

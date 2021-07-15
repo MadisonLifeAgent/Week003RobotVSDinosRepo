@@ -9,8 +9,8 @@ from matches import Matches
 class Herd:
     #herd properties
     def __init__(self):
-        self.name = [] # get from objects
-        self.lives = 3 # one life for each dinosaur in the herd
+        self.name = []
+        self.lives = 3
 
     #set herd to be instantiated
     def set_herd(self):
