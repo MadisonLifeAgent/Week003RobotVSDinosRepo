@@ -2,9 +2,10 @@
 
 #dinosaur class
 class Dinosaurs:
-    def __init__(self):
-        self.name = "" #put name in later
+    def __init__(self, name, attack):
+        #dinosaur properties
+        self.name = name
         self.health = 100
-        self.attack_power = 10
+        self.attack_power = attack
         
 #endregion

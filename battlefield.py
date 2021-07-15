@@ -9,26 +9,29 @@ from herd import Herd
 
 #endregion
 
+#region - instantiate fleet which has robots and weapons
+robot_fleet = Fleet()
+robot_fleet.set_robot_fleet()
 
-#region - instantiate fleet and put robots in fleet
-robot_list = []
-robot_list.append(robot_one)
-robot_list.append(robot_two)
-robot_list.append(robot_three)
+# print fleet names (debugging)
+#use this format to get attributes from
+print(robot_fleet.names[1].name)
+print(robot_fleet.names[1].health)
+print(robot_fleet.names[1].weapon)
+print(robot_fleet.names[1].attack_power)
 
-#endregion
+#endregion - instantiate fleet which has robots and weapons
 
-#region - debug lines
-# print robot names
-#print(robot_three.name)
-#print(robot_three.health)
-#print(robot_three.weapon)
-#print(robot_three.attack_power)
+#region - instantiate heard
 
-# print fleet names
+dino_herd = Herd()
+dino_herd.set_herd()
 
-#print(robot_list[0].name)
-#print(robot_list[0].health)
-#print(robot_list[0].weapon)
-#print(robot_list[0].attack_power)
-#endregion - debug lines
+# print fleet names (debugging)
+#use this format to get attributes from
+print("\nVS.\n")
+print(dino_herd.names[1].name)
+print(dino_herd.names[1].health)
+print(dino_herd.names[1].attack_power)
+
+#endregion - instantiate heard

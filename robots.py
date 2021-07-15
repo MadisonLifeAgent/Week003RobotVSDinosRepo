@@ -7,7 +7,7 @@
 class Robots:
     #robot properties
     def __init__(self, name, weapon):
-        self.name = name # put name in later
+        self.name = name
         self.health = 100
         self.weapon = weapon.weapon_name
         self.attack_power = weapon.attack_power
