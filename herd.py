@@ -2,19 +2,21 @@
 from dinosaurs import Dinosaurs
 
 #region - initializ herd class and set methods
+from dinosaurs import Dinosaurs
+from matches import Matches
 
 #herd class
 class Herd:
     #herd properties
     def __init__(self):
-        self.names = [] # get from objects
+        self.name = [] # get from objects
         self.lives = 3 # one life for each dinosaur in the herd
 
     #set herd to be instantiated
     def set_herd(self):
-        self.names.append(dino_one)
-        self.names.append(dino_two)
-        self.names.append(dino_three)
+        self.name.append(dino_one)
+        self.name.append(dino_two)
+        self.name.append(dino_three)
 
 #endregion
 

@@ -1,5 +1,6 @@
-#get weapons
-#from weapons import Weapons
+#import all classes
+from weapons import Weapons
+
 
 #region - initializ robots class and set methods
 
